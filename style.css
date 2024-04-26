@@ -21,6 +21,7 @@
     padding: 10px;
     height: 85vh;
     width: 10vw;
+    position: relative;
 }
 #first{
     background: url("images/beautiful-green-field-scenery-picjumbo-com.jpg");
@@ -50,4 +51,16 @@
 }
 .active{
     width: 60vw;
+}
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+    transition: 1s;
+}
+.show{
+    opacity: 1;
 }
